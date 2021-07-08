@@ -19,7 +19,7 @@ public class JumpToCommand extends Command {
 
         if (sender instanceof ProxiedPlayer) {
             final ProxiedPlayer proxiedPlayer = (ProxiedPlayer) sender;
-            if (proxiedPlayer.hasPermission("jumpto")) {
+            if (proxiedPlayer.hasPermission("bungeecord.jumpto")) {
 
                 if(args.length!=1) {
                     proxiedPlayer.sendMessage(BungeePlayerHandler.getInstance().getPrefix() +

@@ -1,5 +1,5 @@
 name: BungeePlayerHandler
-version: pre-1.2
+version: pre-1.3
 main: dev.ichbinbekifft.bungeeplayerhandler.BungeePlayerHandler
 description: A bungeecord Playerhandler
 

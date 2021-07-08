@@ -21,7 +21,7 @@ public class PingCommand extends Command {
                             proxiedPlayer.getPing() :
                             (proxiedPlayer.getPing() >=
                                     100 ? "§4" + proxiedPlayer.getPing() : "§a" +
-                                    proxiedPlayer.getPing())) + " §7ms!");
+                                    proxiedPlayer.getPing())) + " §7ms§8!");
 
 
 

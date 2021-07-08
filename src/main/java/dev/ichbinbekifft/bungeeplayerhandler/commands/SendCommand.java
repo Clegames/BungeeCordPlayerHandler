@@ -19,7 +19,7 @@ public class SendCommand extends Command {
 
             ProxiedPlayer player = (ProxiedPlayer) commandSender;
 
-            if (!player.hasPermission("core.send")) {
+            if (!player.hasPermission("bungeecord.send")) {
                 player.sendMessage(BungeePlayerHandler.getInstance().getPrefix() + "Duzu hast du keine Rechte§8!");
                 return;
             }
