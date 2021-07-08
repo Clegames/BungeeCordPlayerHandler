@@ -17,9 +17,6 @@ public final class BungeePlayerHandler extends Plugin {
      */
 
     private static BungeePlayerHandler instance;
-
-    private File configFile;
-    private YamlConfiguration config;
     private String prefix;
 
     @Override
